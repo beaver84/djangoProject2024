@@ -4,8 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5ca1f77a-738c-444f-8e54-539bffe9cf24" name="Changes" comment="Blog app 완성">
+    <list default="true" id="5ca1f77a-738c-444f-8e54-539bffe9cf24" name="Changes" comment="slug에 영어를 넣어야 정상 작동(한글을 넣을 시 주소값에 한글이 입력되어 작동안함)">
+      <change afterPath="$PROJECT_DIR$/djangoProject2024/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/djangoProject2024/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoProject2024/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/djangoProject2024/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoProject2024/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +25,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="CSS File" />
         <option value="HTML File" />
       </list>
     </option>
@@ -26,18 +33,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "beaver84"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;beaver84&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/beaver84/djangoProject2024.git",
-    "accountId": "af1885dc-c2bb-401d-98a1-f0797ba5dbe1"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/beaver84/djangoProject2024.git&quot;,
+    &quot;accountId&quot;: &quot;af1885dc-c2bb-401d-98a1-f0797ba5dbe1&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
@@ -61,6 +68,7 @@
     "django.template.preview.state": "SHOW_EDITOR_AND_PREVIEW",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
+    "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -77,6 +85,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Xeon\PycharmProjects\djangoProject2024\static\css" />
       <recent name="C:\Users\Xeon\PycharmProjects\djangoProject2024\templates\bookmark" />
     </key>
   </component>
@@ -154,6 +163,7 @@
       <workItem from="1720098343801" duration="3892000" />
       <workItem from="1720195989549" duration="10793000" />
       <workItem from="1720211490921" duration="184000" />
+      <workItem from="1720272890903" duration="7226000" />
     </task>
     <task id="LOCAL-00001" summary="Blog app 테이블 migration">
       <option name="closed" value="true" />
@@ -171,7 +181,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720210554281</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="slug에 영어를 넣어야 정상 작동(한글을 넣을 시 주소값에 한글이 입력되어 작동안함)">
+      <option name="closed" value="true" />
+      <created>1720277453302</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1720277453302</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -191,7 +209,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Blog app 테이블 migration" />
     <MESSAGE value="Blog app 완성" />
-    <option name="LAST_COMMIT_MESSAGE" value="Blog app 완성" />
+    <MESSAGE value="slug에 영어를 넣어야 정상 작동(한글을 넣을 시 주소값에 한글이 입력되어 작동안함)" />
+    <option name="LAST_COMMIT_MESSAGE" value="slug에 영어를 넣어야 정상 작동(한글을 넣을 시 주소값에 한글이 입력되어 작동안함)" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/djangoProject2024$manage.coverage" NAME="manage Coverage Results" MODIFIED="1720098427597" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
